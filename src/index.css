@@ -1,0 +1,67 @@
+@import-normalize; /* bring in normalize.css styles */
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.header {
+  background-color: #6a0572; /* бурштиновий */
+  color: #fff; /* білий */
+  padding: 15px; /* збільшено відступ */
+  margin-bottom: 20px; /* збільшений відступ вниз */
+  display: flex; /* використовуємо flex-контейнер */
+  justify-content: space-between; /* рівномірно розподіляємо елементи по ширині контейнера */
+  align-items: center; /* вирівнюємо елементи по вертикалі по центру */
+}
+
+.header h2 {
+  margin: 0; /* знімаємо зовнішні відступи від заголовка */
+  font-size: 20px; /* збільшено розмір тексту заголовка */
+}
+
+.header ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0; /* знімаємо зовнішні відступи у списку */
+  display: flex; /* використовуємо flex-контейнер */
+}
+
+.header ul li {
+  margin-right: 20px; /* збільшено відступ */
+}
+
+.header ul li:last-child {
+  margin-right: 0; /* знімаємо відступ у останньому елементі списку */
+}
+
+.header ul li a {
+  color: #e663df; /* стальний синій */
+  text-decoration: none;
+  font-size: 18px; /* збільшено розмір тексту */
+  font-weight: bold; /* збільшено товщину тексту */
+}
+
+.header ul li a:hover {
+  color: #f1aded; /* світло-синій */
+}
+
+.link{
+  color: #e663df; /* стальний синій */
+  text-decoration: none;
+  font-size: 18px; /* збільшено розмір тексту */
+  font-weight: bold;
+}
+
+.link:hover{
+   color: #f1aded;
+}

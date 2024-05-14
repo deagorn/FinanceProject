@@ -1,0 +1,52 @@
+/* AuthForm.module.css */
+
+.container {
+  width: 100%;
+  height: 100vh; /* 100% висоти відносно висоти екрану */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* вирівнює контент по вертикалі в центрі */
+  align-items: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px; /* Фіксована ширина форми */
+  max-width: 100%; /* Максимальна ширина форми 100% від контейнера */
+}
+
+.input,
+.btn {
+  width: 100%; /* Зробити ширину полів вводу та кнопки 100% ширини форми */
+  margin: 5px 0; /* Відступи від верхнього і нижнього краю */
+  padding: 10px; /* Величина внутрішнього відступу */
+  border: 1px solid #ccc; /* колір рамки */
+  border-radius: 5px; /* радіус закруглення кутів */
+}
+
+.btn {
+  margin-top: 15px; /* Відступ від верхнього поля вводу до кнопки */
+  background-color: #6a0572; /* Барвистий фон кнопки */
+  color: #fff; /* Колір тексту кнопки */
+  border: none; /* Без рамки */
+  cursor: pointer; /* Зміна курсору при наведенні */
+  transition: background-color 0.3s ease; /* Плавний перехід кольору фону */
+}
+
+.btn:hover {
+  background-color: #350238; /* Фон кнопки при наведенні */
+}
+
+.error {
+  margin: 0; /* Нульовий відступ для повідомлення про помилку */
+  color: red; /* Червоний колір для відображення помилок */
+  font-size: 14px; /* Розмір тексту помилки */
+}
+
+.label {
+  width: 100%; /* Ширина текстових міток 100% */
+  margin-bottom: 10px; /* Відступ між текстовими мітками */
+  font-size: 16px; /* Розмір тексту міток */
+}

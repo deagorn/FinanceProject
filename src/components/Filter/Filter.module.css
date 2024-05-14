@@ -1,0 +1,49 @@
+.filterContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  button{
+  padding: 8px 16px; /* Задаємо відступи кнопки */
+  font-size: 16px;
+  border: 1px solid #6a0572; /* Фіолетовий колір для рамки кнопки */
+  border-radius: 4px;
+  margin-left: 10px; /* Додаємо відступ між кнопками */
+  background-color: transparent; /* Прозорий фон кнопки */
+  color: #6a0572; /* Фіолетовий колір тексту кнопки */
+  cursor: pointer; /* Змінюємо курсор при наведенні на кнопку */
+  transition: background-color 0.3s, color 0.3s; 
+  &:hover{
+  background-color: #6a0572; /* Фіолетовий колір при наведенні на кнопку */
+  color: #fff;
+  }
+  &.active{
+    color: #fff; 
+     background-color: #6a0572; 
+  }
+  }
+}
+
+.filterLabel {
+  display: block;
+  margin-left: 20px;
+  margin-bottom: 5px;
+  color: #6a0572; /* Фіолетовий колір для мітки */
+}
+
+.filterInput {
+  width: 300px; /* Задаємо ширину вводу */
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #6a0572; /* Фіолетовий колір для рамки поля вводу */
+  border-radius: 4px;
+  margin-left: 10px; /* Додаємо відступ між міткою і полем вводу */
+  transition: border-color 0.3s ease-in-out;
+  align-self: center;
+}
+
+.filterInput:focus {
+  outline: none;
+  border-color: #8f3e8b; /* Фіолетовий колір при активному стані поля вводу */
+}

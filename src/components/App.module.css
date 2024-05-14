@@ -1,0 +1,10 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.title {
+  color: #6a0572; /* Фіолетовий колір для заголовку */
+  margin-bottom: 20px;
+}

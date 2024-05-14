@@ -1,0 +1,54 @@
+.listContainer {
+  padding: 0;
+  list-style-type: none;
+  align-items: stretch;
+  flex-direction: column;
+  width: 95%;
+
+}
+
+.listItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #6a0572; /* Фіолетовий колір для роздільної лінії між елементами */
+}
+
+.contactInfo {
+  flex-grow: 1;
+  color: #6a0572; /* Фіолетовий колір для тексту інформації про контакт */
+}
+
+.contactName {
+  font-weight: bold;
+}
+
+.deleteButton {
+  margin-left: 10px;
+  padding: 5px 10px;
+  background-color: #6a0572; /* Фіолетовий колір для кнопки видалення */
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  &:hover{
+  background-color: #ff0000 !important; /* Фіолетовий колір для кнопки видалення */
+  }
+}
+
+.deleteButton:hover {
+  background-color: #8f3e8b; /* Темно-фіолетовий колір для кнопки видалення при наведенні */
+}
+
+.author{
+  margin-left: 10px;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+.listFlex{
+  display: flex;
+  justify-content: space-around;
+}
